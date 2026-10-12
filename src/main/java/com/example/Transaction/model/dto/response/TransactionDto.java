@@ -32,7 +32,7 @@ public class TransactionDto {
     @NotNull(message = "Transaction type is required")
     private TransactionType type;
     
-    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd'Dockerfile'HH:mm:ss")
     private LocalDateTime timestamp;
     
     private TransactionStatus status;
